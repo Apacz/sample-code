@@ -1,0 +1,14 @@
+services:
+    app.menu_builder:
+        class: AppBundle\Menu\MenuBuilder
+        autowire: true
+        tags:
+            - { name: knp_menu.menu_builder, method: createMainMenu, alias: main } # The alias is what is used to retrieve the menu
+        public: true
+    app.locale_subscriber:
+        class: AppBundle\EventSubscriber\LocaleSubscriber
+        arguments: ['%kernel.default_locale%']
+        # redundant if you're using autoconfigure
+        tags: ["kernel.event_subscriber"]
+    AppBundle\Service\LocaleStandard:
+        autowire: true

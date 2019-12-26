@@ -1,0 +1,6 @@
+services:
+      note.note_voter:
+            class: NoteBundle\Security\NoteVoter
+            tags:
+                - { name: security.voter }
+            public: false

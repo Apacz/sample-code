@@ -1,0 +1,20 @@
+{% extends app.request.xmlHttpRequest
+? ':Layout:ajax.html.twig'
+: ':Layout:base.html.twig' %}
+
+{% block content %}
+    <div class="modal-curtain"></div>
+    {{ form_start(form, {attr: {novalidate: 'novalidate'}}) }}
+    {{ form_errors(form) }}
+    {{ form_widget(form.message, { 'attr': {'class': 'summernote1'} }) }}
+    <div class="form-group">
+        <div class="col-sm-12 " style="padding-left: 30px; padding-right: 30px; margin-top: 12px; ">
+            <input data-modal-save class="btn btn-primary" type="submit" value="{{ 'button.save'|trans }}"/>
+            <a data-modal-close class="btn btn-white" type="submit">{{ 'button.cancel'|trans }}</a>
+            <span data-error-container class="text-danger"></span>
+        </div>
+    </div>
+    {{ form_end(form) }}
+{% endblock %}
+
+

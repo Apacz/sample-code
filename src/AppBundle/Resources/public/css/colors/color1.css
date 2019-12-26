@@ -1,0 +1,260 @@
+a:hover,
+.top,
+.top a,
+.post .entry-post,
+.author-post .text,
+.comments-list,
+.widget ul li a,
+.widget-search #s,
+.widget .recent-news p,
+.widget-twitter,
+.information,
+.working,
+.titlebox p,
+.iconbox p,
+.testimonial-info .pos,
+.toggle .toggle-content,
+.error404 .text {
+	color: #1d8b8c;
+}
+
+a,
+h3.title,
+.text-color,
+.top .contact-info li:before,
+.top .language:before,
+.top .language .current > a,
+.top .language .current:after,
+#mainnav > ul > li > a:hover,
+#mainnav > ul > li > a.active,
+#mainnav ul.sub-menu > li > a:hover,
+#mainnav > ul > li > ul > li.active > a,
+#mainnav-mobi ul > li > a:hover,
+#mainnav-mobi ul > li.active > a,
+.btn-menu.active,
+#top-slider .text-scroll h1,
+#top-slider .arrow i,
+.page-title h1,
+.featured-post .overlay .link i,
+.comment-post h4,
+.widget .widget-title,
+.widget ul li a:hover,
+.widget-search #searchsubmit,
+.widget-twitter ul li:before,
+.widget-twitter ul li a,
+.project-info h2,
+.footer,
+.footer .widget-recent-posts ul li .meta-post a,
+.footer .widget-recent-posts ul li .meta-post span:before,
+.footer .widget-newsletter #subscribe-email,
+.footer .widget-newsletter #subscribe-email:focus,
+.footer .widget-newsletter #subscribe-form .input:before,
+.bottom,
+.bottom .bottom-links,
+.bottom .bottom-links a:hover,
+.one-page .bottom span,
+.switcher-container h2 a,
+.titlebox .subtitle,
+.iconbox:hover i,
+.iconbox h3 a:hover,
+.progress-single .name,
+.progress-single .perc,
+.project-thumb .link i,
+.testimonials #bx-next i,
+.testimonials #bx-prev i,
+.testimonial-info .name,
+.team .position,
+.toggle .toggle-title,
+.toggle .toggle-title:after,
+.socials-list .follow-us h3,
+.flexslider .flex-direction-nav i,
+.error404 .title,
+.bottom.under-construction .copyright span,
+.countdown .numb {
+	color: #0fd8da;
+}
+
+.bg-color,
+#top-slider .ideas li:before,
+.post-item:hover .content-post,
+.footer .btn-orches.border-type:hover,
+.footer .widget-tags .tags a:hover,
+.footer .widget-newsletter #subscribe-button,
+.go-top:hover,
+.switcher-container h2,
+.switcher-container .layout-switcher a.layout:hover,
+.btn-orches,
+.team:hover .photo .overlays:after,
+#mainnav ul.sub-menu > li > a:hover,
+#mainnav > ul > li > ul > li.active > a {
+	background-color: #0fd8da;
+}
+
+.iconbox .icon-bg,
+.testimonials #bx-next a:before,
+.testimonials #bx-prev a:before,
+.testimonial-avatar img,
+.toggle .toggle-title:before,
+.socials-list ul li,
+.flexslider .flex-direction-nav a:before {
+   -webkit-box-shadow: inset 0 0 0 2px #0fd8da;
+      -moz-box-shadow: inset 0 0 0 2px #0fd8da;
+        -o-box-shadow: inset 0 0 0 2px #0fd8da;
+           box-shadow: inset 0 0 0 2px #0fd8da;
+}
+
+.team .photo .overlays img,
+.socials-list.big-size ul li,
+.countdown .numb,
+.control-slider .flex-direction-nav a:before {
+   -webkit-box-shadow: inset 0 0 0 3px #0fd8da;
+      -moz-box-shadow: inset 0 0 0 3px #0fd8da;
+        -o-box-shadow: inset 0 0 0 3px #0fd8da;
+           box-shadow: inset 0 0 0 3px #0fd8da;
+}
+
+.progress-animate {
+  background: -webkit-linear-gradient(#8afeff, #0fd8da);
+  background: -o-linear-gradient(#8afeff, #0fd8da);
+  background: -moz-linear-gradient(#8afeff, #0fd8da);
+  background: linear-gradient(#8afeff, #0fd8da);
+}
+
+hr.color {
+   border-top-color: #0fd8da;
+}
+
+.widget ul li {
+	border-top: 1px solid #0fd8da;
+}
+
+.blog-posts .pagination ul li a,
+.comment-author .avatar,
+.comment-respond input[type="text"],
+.comment-respond input[type="password"],
+.comment-respond textarea,
+.contact-form input[type="text"],
+.contact-form input[type="password"],
+.contact-form textarea,
+.orches-form input[type="text"],
+.orches-form input[type="password"],
+.orches-form input[type="email"],
+.orches-form textarea,
+.footer .btn-orches.border-type:hover,
+.footer .widget-recent-posts ul li img,
+.footer .widget-tags .tags a,
+.footer .widget-newsletter #subscribe-email,
+.switcher-container .layout-switcher a.layout,
+.btn-orches,
+.btn-orches.black:hover,
+.project-wrap .project-filter li,
+.posts-wrap .post-filter li,
+.toggle .toggle-title span {
+	border: 2px solid #0fd8da;
+}
+
+.author-post .avatar,
+.widget-search #s {
+	border: 3px solid #0fd8da;
+}
+
+.project-info ul li {
+	border-bottom: 1px solid #0fd8da;
+}
+
+.project-info ul li:first-child {
+	border-top: 1px solid #0fd8da;
+}
+
+::-webkit-input-placeholder { color: #1d8b8c !important; }
+::-moz-placeholder { color: #1d8b8c !important; } /* firefox 19+ */
+:-ms-input-placeholder { color: #1d8b8c !important; } /* ie */
+input:-moz-placeholder { color: #1d8b8c !important; }
+
+.comment-respond input::-webkit-input-placeholder,
+.comment-respond textarea::-webkit-input-placeholder {
+	color: #0fd8da !important;
+}
+
+.comment-respond input::-moz-placeholder,
+.comment-respond textarea::-moz-placeholder {
+	color: #0fd8da !important;
+}
+
+#top-slider .arrow_bg,
+.control-slider .flex-direction-nav a:hover:before {
+	background: transparent url(../../images/spin/4.png) no-repeat center center;
+}
+
+.featured-post .overlay .icon-bg,
+.project-thumb .icon-bg {
+   background: transparent url(../../images/spin/3.png) no-repeat center center;
+}
+
+.share-post ul li:hover:before,
+.team .socials li:hover a:before {
+   background: transparent url(../../images/spin/2.png) no-repeat center center;
+}
+
+.iconbox:hover .icon-bg,
+.socials-list.big-size ul li:hover:before {
+   background: transparent url(../../images/spin/6.png) no-repeat center center;
+}
+
+/*.iconbox .icon-bg.selected,*/
+/*.socials-list.big-size ul li:hover:before {*/
+    /*background: transparent url(../../images/spin/6.png) no-repeat center center;*/
+/*}*/
+/*.iconbox:hover div.icon-bg.selected {*/
+    /*background: transparent url(../../images/spin/6.png) no-repeat center center;*/
+    /*-webkit-box-shadow: inset 0 0 0 3px transparent;*/
+    /*-moz-box-shadow: inset 0 0 0 3px transparent;*/
+    /*-o-box-shadow: inset 0 0 0 3px transparent;*/
+    /*box-shadow: inset 0 0 0 3px transparent;*/
+    /*-webkit-animation: rotate 5s infinite linear;*/
+    /*-moz-animation: rotate 5s infinite linear;*/
+    /*-o-animation: rotate 5s infinite linear;*/
+    /*animation: rotate 5s infinite linear;*/
+/*}*/
+
+.testimonials #bx-next a:hover:before,
+.testimonials #bx-prev a:hover:before,
+.toggle .toggle-title.active:before,
+.flexslider .flex-direction-nav a:hover:before {
+   background: transparent url(../../images/spin/1.png) no-repeat center center;
+}
+
+.testimonial-avatar a.active:after,
+.team:hover .photo .overlays:before {
+   background: transparent url(../../images/spin/7.png) no-repeat center center;  
+}
+
+.socials-list ul li:hover:before {
+   background: transparent url(../../images/spin/5.png) no-repeat center center;
+}
+
+
+@media only screen and (max-width: 1199px) {
+   .team:hover .photo .overlays:before {
+      background: transparent url(../../images/spin/6.png) no-repeat center center ;  
+   }
+}
+
+@media only screen and (max-width: 979px) {
+   .team .photo .overlays img {
+      -webkit-box-shadow: inset 0 0 0 2px #0fd8da;
+         -moz-box-shadow: inset 0 0 0 2px #0fd8da;
+           -o-box-shadow: inset 0 0 0 2px #0fd8da;
+              box-shadow: inset 0 0 0 2px #0fd8da;
+   }
+
+   .team:hover .photo .overlays:before {
+      background: transparent url(../../images/spin/5.png) no-repeat center center ;  
+   }
+}
+
+@media only screen and (max-width: 767px) {
+   .team:hover .photo .overlays:before {
+      background: transparent url(../../images/spin/7.png) no-repeat center center ;  
+   }
+}

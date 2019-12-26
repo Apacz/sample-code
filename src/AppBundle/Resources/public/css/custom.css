@@ -1,0 +1,28 @@
+.un-enable{
+    opacity: 0.8;
+}
+
+.featured-post .overlay .link.accept{
+    top:80%;
+}
+
+.featured-post .overlay .link.accept i, .featured-post .overlay .link.accept .icon-bg{
+    left:20%;
+}
+
+.featured-post .overlay .link.cancel{
+    top:10%;
+}
+
+.featured-post .overlay .link.cancel i, .featured-post .overlay .link.cancel .icon-bg{
+    left:90%;
+}
+
+.featured-post .overlay .link.reject{
+    top:80%;
+}
+
+.featured-post .overlay .link.reject i, .featured-post .overlay .link.reject .icon-bg{
+    left:80%;
+}
+

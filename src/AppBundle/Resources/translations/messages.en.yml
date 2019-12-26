@@ -1,0 +1,28 @@
+Language: Language
+Polish: Polish
+English: English
+pl: Polish
+en: English
+Count Down: Count Down to party
+Account: Account
+Login: Login
+Forget Password?: Forget Password?
+Register: Register
+Preference: Preference
+Profile: Profile
+Logout: Logout
+City: City
+Cities: Cities
+Sex: Sex
+male: Male
+female: Female
+Regulamin: Regulamin
+Private Politics: Private Politics
+Cookies Politics: Cookies Politics
+security:
+    edit:
+        submit: edit
+party:
+  times_up: 'Party id alreaty over :('
+  count_down: 'Count Down'
+  party_on: 'Party has already started'

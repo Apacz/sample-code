@@ -1,0 +1,9 @@
+imports:
+    - { resource: 'voters.yml' }
+
+services:
+    note.twig_extension.note_author:
+          class: NoteBundle\Twig\Extension\NoteAuthorExtension
+          public: false
+          tags:
+              - { name: twig.extension }

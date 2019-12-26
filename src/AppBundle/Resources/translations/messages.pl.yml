@@ -1,0 +1,28 @@
+Language: Język
+Polish: Polski
+English: Angielski
+pl: Polski
+en: Angielski
+Count Down: Odliczanie do imprezy
+Account: Konto
+Login: Zaloguj się
+Forget Password?: Zapomniałeś hasła?
+Register: Zarejestruj się
+Profile: Profil
+Preference: Preferencje
+Logout: Wyloguj się
+City: Miasto
+Cities: Miasta
+Sex: Płeć
+male: Mężczyzna
+female: Kobieta
+Regulamin: Regulamin
+Private Politics: Polityka Prywatności
+Cookies Politics: Polityka Cookies
+security:
+    edit:
+        submit: Edytuj
+party:
+  times_up: 'Impreza już się skończyła :('
+  count_down: 'Odliczanie'
+  party_on: 'Impreza właśnie trwa'

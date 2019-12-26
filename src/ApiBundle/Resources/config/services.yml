@@ -1,0 +1,21 @@
+services:
+
+  api.dictionary_manager:
+    public: true
+    class: ApiBundle\Utils\DictionaryManager\DictionaryManager
+    arguments: ["@doctrine.orm.entity_manager", "@api.offer_search"]
+
+  api.offer_manager:
+    class: ApiBundle\Utils\OfferManager\OfferManager
+    autowire: true
+
+  api.offer_list_validator:
+      public: true
+      class: ApiBundle\Utils\OfferSearchValidator\OfferSearchValidator
+      arguments: ["@doctrine.orm.entity_manager"]
+
+  api.offer_list_validator_single:
+      class: ApiBundle\Utils\OfferSearchValidator\OfferSearchValidatorSingle
+
+  api.offer_search:
+      class: ApiBundle\Search\OfferSearchService

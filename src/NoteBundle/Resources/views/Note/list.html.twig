@@ -1,0 +1,77 @@
+{% extends ':Layout:ajax.html.twig' %}
+{% block content %}
+    <div id="note-list" data-list-target="{{ path('note_list', {'entityId' : entityId, 'entity': entityType}) }}">
+        {% if notes is not empty %}
+            <ul class="notes">
+                    {% for note in notes %}
+                        {% if note %}
+                            <li>
+                                <div class="note-wrapper">
+                                    <small>{{ simpleDateTime(note.dateCreated) }}</small>
+                                    <p>
+                                        {% if is_granted("NOTE_EDIT", note) or is_granted("NOTE_REMOVE", note) %}
+                                            {% if app.request.isXmlHttpRequest() %}
+                                                {% if is_granted("NOTE_EDIT", note) %}
+                                                    <a class="edit-btn" href="#"
+                                                       data-modal-target-note="{{ path('note_edit', {'entityId' : entityId, 'entity': entityType, 'noteId': note.id}) }}"
+                                                       data-modal-selector="#modal"><i class="fa fa-edit fa-fw"></i>
+                                                    </a>
+                                                {% endif %}
+                                                {% if is_granted("NOTE_REMOVE", note) %}
+                                                    <form
+                                                        method="post"
+                                                        action="{{ pathWithBackUrl('note_remove', {'entityId' : entityId, 'entity': entityType, 'noteId': note.id}) }}"
+                                                        submit-confirm="submit-confirm"
+                                                        class="sc-inline remove-form note-remove-form"
+                                                        data-form-confirm-title="{{ 'swal.delete.confirm_title'|trans }}"
+                                                        data-form-confirm-message="{{ 'swal.delete.confirm_message'|trans }}"
+                                                        >
+                                                        <button type="submit"><i class="fa fa-trash fa-fw"></i></button>
+                                                    </form>
+                                                {% endif %}
+                                            {% else %}
+                                                {% if is_granted("NOTE_EDIT", note) %}
+                                                    <a class="edit-btn" href="#"
+                                                       data-modal-target-note="{{ path('note_edit', {'entityId' : entityId, 'entity': entityType, 'noteId': note.id}) }}"
+                                                       data-modal-selector="#modal">
+                                                        <i class="fa fa-edit fa-fw"></i>
+                                                    </a>
+                                                {% endif %}
+                                                {% if is_granted("NOTE_REMOVE", note) %}
+                                                    <form
+                                                            method="post"
+                                                            action="{{ pathWithBackUrl('note_remove', {'entityId' : entityId, 'entity': entityType, 'noteId': note.id}) }}"
+                                                            submit-confirm="submit-confirm"
+                                                            class="sc-inline remove-form note-remove-form"
+                                                            data-form-confirm-title="{{ 'swal.delete.confirm_title'|trans }}"
+                                                            data-form-confirm-message="{{ 'swal.delete.confirm_message'|trans }}"
+                                                    >
+                                                        <button type="submit"><i class="fa fa-trash fa-fw"></i></button>
+                                                    </form>
+                                                {% endif %}
+                                            {% endif %}
+                                        {% endif %}
+                                        {{ note.message|raw }}
+                                    </p>
+                                    <p class="user-creator">
+                                        {{ 'note.created_by'|trans }}{{ note.user.recruiter }}
+
+                                    </p>
+                                </div>
+
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+            </ul>
+        {% else %}
+            <div class="alert alert-info">{{ 'message.no_results_found'|trans }}</div>
+        {% endif %}
+
+        <div class="clear"></div>
+    </div>
+{% endblock %}
+
+
+
+
+

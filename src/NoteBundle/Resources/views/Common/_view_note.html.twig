@@ -1,0 +1,15 @@
+<div class="ibox float-e-margins">
+    <div class="ibox-title">
+        <h5>{{ 'header.notes'|trans }}</h5>
+        <div class="ibox-tools">
+            {{ addButton({
+                'data-modal-target-note':  path('note_new', {'entityId': entityId, 'entity' : entityType}),
+                'data-modal-selector': '#modal'
+            }) }}
+        </div>
+    </div>
+    <div class="ibox-content no-padding border-left-right"></div>
+    <div class="ibox-content profile-content">
+        {{ render(controller('NoteBundle:Note:list', {'entityId': entityId, 'entity' : entityType} )) }}
+    </div>
+</div>
